@@ -6,7 +6,7 @@ using UIKit;
 namespace MVVMCrossLibTemplate.TestApp.iOS
 {
     [Register("AppDelegate")]
-    public partial class AppDelegate : MvxApplicationDelegate<Setup, App>
+    public class AppDelegate : MvxApplicationDelegate<Setup, App>
     {
         public override bool FinishedLaunching(UIApplication application, NSDictionary launchOptions)
         {
